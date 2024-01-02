@@ -12,7 +12,7 @@ const { Telegraf } = require('telegraf')
   
 */ 
 
-const bot = new Telegraf('6694830536:AAE0AVOU5owZvQ_7rRIoyyPMd_QXcPQg420');
+const bot = new Telegraf('Token');
 
 bot.start((ctx) => ctx.reply('Welcome to TechforTechies_bot  from Esha!!'));
 bot.on('sticker', (ctx) => ctx.reply('❤️'));
